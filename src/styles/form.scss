@@ -1,0 +1,94 @@
+/* ===============
+   FORM SETTINGS 
+   =============== */
+
+.form-input-label, .form-input {
+	display: block;
+}
+.form-input-label {
+	font-size: 14px;
+}
+.form-input, .form-area, .markdown-editor__textarea {
+	font-size: 15px;
+	width: 100%;
+	border-radius: 3px;
+	padding: 0.72em;
+	border: 1px solid #e8e8e8;
+  box-shadow: none;
+	outline: none;
+	user-select: none;
+	text-decoration: none;
+	white-space: nowrap;
+	&:hover {
+		border: 1px solid rgba(39,41,43,0.25);
+	}
+	&:focus {
+		border: 1px solid rgba(39,41,43,0.35);
+	}
+  @media screen and (max-width: 748px) {
+    user-select: text;
+  }
+}
+.form-area {
+	resize: vertical;
+	min-height: 140px;
+}
+
+
+/* ===============
+   MARKDOWN SETTINGS 
+   =============== */
+.markdown-editor__textarea {
+	resize: none;
+  white-space: pre-wrap;
+	min-height: 200px;
+}
+
+.markdown-editor__preview-container,
+.markdown-editor__editor-container h2 {
+	display: none;
+}
+
+
+/* ===============
+   CUSTOM FILE INPUT SETTINGS 
+   =============== */
+.custom-file-input {
+  color: transparent;
+  border: none;
+  outline: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Upload a file';
+  color: black;
+  display: inline-block;
+  background: #f9f9f9;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.custom-file-input:hover::before {
+  border-color: #e1e1e1;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: #f9f9f9;
+}
+

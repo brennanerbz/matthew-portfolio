@@ -1,0 +1,130 @@
+/* ===============
+   FONTS
+   =============== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Lato:400,300,900);
+
+
+/* ===============
+   VARIABLES
+   =============== */
+$font-stack: "Open Sans", Helvetica, sans-serif;
+
+
+/* ===============
+   GLOBAL SETTINGS 
+   =============== */
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #E9EBEE;
+  font-family: $font-stack;
+  font-smoothing: anti-aliased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ===============
+   SELF-CLEAR CHILDREN A.K.A. CLEARFIX 
+   =============== */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+/* ===============
+   LINK SETTINGS 
+   =============== */
+.links {
+  text-decoration: none;
+  &.flat {
+    li {
+      display: inline;
+    }
+  }
+  &.up {
+    li {
+      display: block;
+    }
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+/* ===============
+   NAV & FOOTER SETTINGS 
+   =============== */
+.nav, .footer {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #D8DBE1;
+  padding: 10px 0;
+}
+
+
+/* ===============
+   BORDER SETTINGS 
+   =============== */
+.border {
+  &.bb {
+    border-bottom: 2px solid;
+  }
+  &.bbs {
+    border-bottom: 1px solid;
+  }
+  &.br {
+    border-color: #EC342F;
+  }
+  &.bt {
+    border-top: 1px solid;
+  }
+  &.bg {
+    border-color: #e8e8e8;
+  }
+}
+
+
+/* ===============
+   HOVER AND CLICK SETTINGS 
+   =============== */
+.pointer {
+  cursor: pointer;
+}
+.no-user-select {
+  user-select: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.hover-bg-light {
+  &:hover {
+    background: #fafafa;
+  }
+}
+.quiet-shadow {
+  box-shadow: 0 1px 4px rgba(0,0,0,.15)!important;
+}
+
+
+
+/* ===============
+  CANVAS SETTINGS 
+   =============== */
+canvas {
+  visibility: hidden;
+  display: none;
+}

@@ -1,0 +1,340 @@
+/* ===============
+   LAYOUT SETTINGS 
+   =============== */
+  
+/* ===============
+   CONTAINER SETTINGS 
+   =============== */
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	@media screen and (min-width: 320px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 768px) {
+		width: 100%;
+	}
+	@media screen and (min-width: 1224px) {
+		width: 980px;
+	}
+}
+.small-container {
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	@media screen and (max-width: 768px) {
+		width: 100%;
+	}
+}
+
+/* ===============
+   BLOCK SETTINGS 
+   =============== */
+.block {
+	display: block;
+}
+
+
+/* ===============
+   FLOAT SETTINGS 
+   =============== */ 
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.float {
+	&.left {
+		float: left;
+	}
+	&.right {
+		float: right;
+	}
+	&.first {
+		order: 1;
+	}
+	&.second {
+		order: 2;
+	}
+	&.not-on-mobile {
+		@media screen and (max-width: 748px) {
+			float: none;
+			&.center {
+				text-align: center;
+			}
+		}
+	}
+}
+
+
+/* ===============
+   PADDING SETTINGS 
+   =============== */
+.no-padding {
+	padding: 0!important;
+}
+.padding-tiny {
+	&.pt {
+		padding-top: 0.25em;
+	}
+	&.pb {
+		padding-bottom: 0.25em;
+	}
+	&.pr {
+		padding-right: 0.25em;
+	}
+	&.pl {
+		padding-left: 0.25em;
+	}
+}
+.padding-small {
+	&.pt {
+		padding-top: 1em;
+	}
+	&.pb {
+		padding-bottom: 1em;
+	}
+	&.pr {
+		padding-right: 1em;
+	}
+	&.pl {
+		padding-left: 1em;
+	}
+}
+.padding-med {
+	&.pt {
+		padding-top: 2em;
+	}
+	&.pb {
+		padding-bottom: 2em;
+	}
+	&.pr {
+		padding-right: 2em;
+	}
+	&.pl {
+		padding-left: 2em;
+	}
+}
+.padding-large {
+	&.p-top {
+		padding-top: 4em;
+	}
+	&.pb {
+		padding-bottom: 4em;
+	}
+	&.pr {
+		padding-right: 4em;
+	}
+	&.pl {
+		padding-left: 4em;
+	}
+}
+
+/* ===============
+   MARGIN SETTINGS 
+   =============== */
+.no-margin {
+	margin: 0!important;
+}
+.margin-tiny {
+	&.mt {
+		margin-top: 0.25em;
+	}
+	&.mb {
+		margin-bottom: 0.25em;
+	}
+	&.mr {
+		margin-right: 0.25em;
+	}
+	&.ml {
+		margin-left: 0.25em;
+	}
+}
+.margin-small {
+	&.mt {
+		margin-top: 1em;
+	}
+	&.mb {
+		margin-bottom: 1em;
+	}
+	&.mr {
+		margin-right: 1em;
+	}
+	&.ml {
+		margin-left: 1em;
+	}
+}
+.margin-med {
+	&.mt {
+		margin-top: 2em;
+	}
+	&.mb {
+		margin-bottom: 2em;
+	}
+	&.mr {
+		margin-right: 2em;
+	}
+	&.ml {
+		margin-left: 2em;
+	}
+}
+.margin-large {
+	&.mt {
+		margin-top: 4em;
+	}
+	&.mb {
+		margin-bottom: 4em;
+	}
+	&.mr {
+		margin-right: 4em;
+	}
+	&.ml {
+		margin-left: 4em;
+	}
+}
+
+
+
+/* ===============
+   COLUMNS SETTINGS 
+   =============== */
+.span-1-of-2 {
+	width: 49.2%;
+}
+.span-1-of-3 {
+	width: 32%;
+}
+.span-2-of-3 {
+	width: 77%;
+}
+.span-1-of-4 {
+	width: 23.8%;
+}
+.span-3-of-4 {
+	width: 74.6%;
+}
+.col {
+	float: left;
+	display: block;
+	margin: 0 0 2%;
+	padding-right: 2%;
+	+.col {
+		margin-left: 1.6%;
+	}
+	@media screen and (max-width: 748px) {
+		width: 100%;
+		margin: 0 0 2%;
+		padding-right: 0;
+		+.col {
+			margin-left: 0;
+		}
+	}
+}
+.flex-third {
+	float: left;
+	width: calc(33% - 10px);
+	margin: 10px 5px 0;
+	@media screen and (max-width: 640px) {
+		float: none;
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+
+
+/* ===============
+   HIDE_ON_MOBILE SETTINGS 
+   =============== */
+.hide-on-mobile {
+	@media screen and (max-width: 748px) {
+		display: none;
+	}
+}
+.show-on-mobile {
+	display: none;
+	@media screen and (max-width: 748px) {
+		display: block;
+	}
+}
+.vertical-center-on-mobile {
+	@media screen and (max-width: 748px) {
+		transform: translateY(35%);
+	}
+}
+.no-margin-on-mobile {
+	@media screen and (max-width: 748px) {
+		&.nml {
+			margin-left: 0;
+		}
+		&.nmr {
+			margin-right: 0;
+		}
+		&.nmt {
+			margin-top: 0;
+		}
+		&.nmb {
+			margin-bottom: 0;
+		}
+	}
+}
+.no-padding-on-mobile {
+	@media screen and (max-width: 748px) {
+		&.npl {
+			padding-left: 0;
+		}
+		&.npr {
+			padding-right: 0;
+		}
+		&.npt {
+			padding-top: 0;
+		}
+		&.npb {
+			padding-bottom: 0;
+		}
+	}
+}
+.small-padding-on-mobile {
+	@media screen and (max-width: 748px) {
+		&.smpl {
+			padding-left: 1em;
+		}
+		&.smpr {
+			padding-right: 1em;
+		}
+		&.smpt {
+			padding-top: 1em;
+		}
+		&.smpb {
+			padding-bottom: 1em;
+		}
+	}
+}
+.display-block-on-mobile {
+	@media screen and (max-width: 748px) {
+		display: block;
+	}
+}
+
+
+
+/* ===============
+   VIDEO SETTINGS 
+   =============== */
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+	iframe, object, embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+

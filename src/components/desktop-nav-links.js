@@ -15,7 +15,7 @@ export default React.createClass({
 						to="/" 
 						active={activeRoute === '/' || activeRoute.match(/work/g)}
 						idleClass="grey"
-						activeClass="black border bb br"
+						activeClass="black border bb bblue"
 						/>
 				</li>
 				<li>
@@ -25,7 +25,7 @@ export default React.createClass({
 						to="/about" 
 						active={activeRoute === '/about'}
 						idleClass="grey"
-						activeClass="black border bb br"
+						activeClass="black border bb bblue"
 						/>
 				</li>
 				<li>
@@ -35,7 +35,7 @@ export default React.createClass({
 						to="/hire-me" 
 						active={activeRoute === '/hire-me'}
 						idleClass="grey"
-						activeClass="black border bb br"
+						activeClass="black border bb bblue"
 						/>
 				</li>
 			</ul>

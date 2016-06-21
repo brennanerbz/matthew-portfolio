@@ -27,22 +27,23 @@ export default React.createClass({
 							</div>
 						</div>
 						<div className="info margin-large mt">
-							<h1 className="name black bold no-margin text-center">Brennan Erbeznik</h1>
-							<h3 className="title grey no-margin text-center">Front End / UX Engineer</h3>
+							<h1 className="name black bold no-margin text-center">Matt Wizan</h1>
+							<h3 className="title grey no-margin text-center">Creative Director</h3>
 							<div className="about-bio margin-med mt padding-large pl pr no-padding-on-mobile npl npr">
 								<p className="about-info">
-									I'm an engineer and designer living in Venice Beach, California. You can find me on Twitter, Instagram and GitHub. I've led front end engineering, user experience and design at multiple startups since 2012. 
+									I am a filmmaker and content marketing consultant, born and bred in Los Angeles, CA.
 								</p>
-								<p className="about-info">What my resume won't tell you is what I believe, and why I do what I do.</p>
+								<p className="about-info">Well that's the business card...</p>
 								<p className="about-info">
-									I believe that there is a world out there, filled with people that undervalued and underutilized. I believe that everyone’s time is valuable, and that no matter where they’re from, what they do, or who they are, everyone has the opportunity to be paid for what they know or what they can do. I believe in bringing people together, and bringing the best out of them to ultimately find the truth and accomplish great things. I believe in creating tools that bring this wonderful world, and the people within it, to each other. 
-								</p>
-								<p className="about-info">
-										I believe technology is the surest and only way to do so. In order for the future to be better, we must work on things that are different, that are new, that haven't been done before. I believe in companies that want to create these entirely new technologies. I believe in companies that are on a mission to enable people to live better, wealthier, happier and more productive lives. I believe in companies that bring a better future to us. 
+									Basically, I'm a storyteller. I tell stories that are as vivid and diverse as the neighborhood and community I’ve grown up in. The unique people I meet and the variety of experiences that occupy my time have allowed me my voice, and with that voice I choose to communicate the stories that show that no matter who we are as individuals, our humanity is what makes us the same.  
 								</p>
 								<p className="about-info">
-									Join me.
+										As much as I participate in the world around me, I also live my life as an observer, and my desire is to share what I see and what I learn. And when I share, no matter the medium, my goal is to involve the audience in a multiplicity of viewpoints, highlighting a range of cultures and communities with humor and compassion in order to push society to become more empathetic.
 								</p>
+								<p className="about-info">
+									I am also an explorer. I’ve been found walking through hundreds of cities, in dozens of different countries, on three separate continents. I choose not to explore alone. I enjoy being apart of an expedition, both as the point man and the wing, and when I collaborate with my clients, from conception to delivery, I always maintain the highest level of professionalism, creativity, and enthusiasm, delivering their projects on time and above expectations to help them share the best possible version of their stories.
+								</p>
+								<p className="about-info">Let’s explore together. Let’s share stories. Let’s go.</p>
 							</div>
 							<div className="about-pics margin-med mt padding-med pl pr group no-padding-on-mobile npl npr">
 								{

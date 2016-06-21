@@ -25,8 +25,8 @@ export default React.createClass({
 			<div className="hire-me small-container">
 				<div className="form-card margin-small mt mr mb ml no-margin-on-mobile nmr nml">
 					<div className="form-body padding-small pt pr pb pl">
-						<h1 className="hire-message text-center no-margin no-padding">Let's work together</h1>
-						<p className="text-center grey no-margin no-padding">I also cook cheeseburgers</p>
+						<h1 className="hire-message text-center margin-small mb no-margin-on-mobile no-padding">Let's work together</h1>
+						<p className="text-center grey margin-small mt"></p>
 						<form className="hire-form padding-small pr pb pl">
 							<TextInput label={true} name="Name"/>
 							<TextInput label={true} name="Email"/>

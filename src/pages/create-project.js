@@ -28,7 +28,7 @@ export default React.createClass({
 			categories: [
 				'All',
 				'Reel',
-				'Shorts',
+				'Film',
 				'Commercials',
 				'Music Videos',
 				'Screenplays'

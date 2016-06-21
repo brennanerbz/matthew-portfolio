@@ -20,8 +20,8 @@ export default React.createClass({
 								</a>
 							</li>
 							<li>
-								<a href="https://twitter.com/kingmattwiz" className="twitter padding-small pr">
-									Twitter
+								<a href="https://linkedin.com/in/mattwizan" className="twitter padding-small pr">
+									LinkedIn
 								</a>
 							</li>
 							<li>
@@ -30,7 +30,7 @@ export default React.createClass({
 								</a>
 							</li>
 							<li>
-								<a href="https://github.com/kingmattwiz" className="github padding-small pl">
+								<a href="https://facebook.com/kingmattwiz" className="blue padding-small pl">
 									Facebook
 								</a>
 							</li>

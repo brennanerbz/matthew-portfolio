@@ -5,12 +5,12 @@ export default React.createClass({
 	displayName: 'Logo',
 
 	render() {
-		const hamburger = require('../images/hamburger.png');
+		const logo = require('../images/astronaut.jpeg');
 		return(
 			<a href="/">
 				<div className="logo group">
 					<div className="float-left">
-						<img className="logo-icon" src={hamburger}/>
+						<img className="logo-icon" src={logo}/>
 					</div>
 					<div className="float-left">
 						<div className="margin-small ml">

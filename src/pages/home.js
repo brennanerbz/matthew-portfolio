@@ -15,20 +15,11 @@ export default React.createClass({
 			activeCategory: 'All',
 			categories: [
 				'All',
-				'Web Design',
-				'Web App Design',
-				'Interaction Design',
-				'Wireframes',
-				'Mobile Web',
-				'iOS Design',
-				'Android Design',
-				'Startup',
-				'Photography',
-				'Front End Development',
-				'Back End Development',
-				'User Experience Design',
-				'Branding',
-				'Mobile Web Design',
+				'Reel',
+				'Shorts',
+				'Commercials',
+				'Music Videos',
+				'Screenplays'
 			]
 		}
 	},

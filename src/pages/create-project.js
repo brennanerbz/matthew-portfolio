@@ -26,24 +26,12 @@ export default React.createClass({
 			filetype: '',
 			markdown: '',
 			categories: [
-				'Web Design',
-				'Web App Design',
-				'Interaction Design',
-				'Wireframes',
-				'Mobile Web',
-				'iOS Design',
-				'Android Design',
-				'Startup',
-				'Photography',
-				'Videography',
-				'Film',
-				'Music Video',
-				'Commercial',
-				'Front End Development',
-				'Back End Development',
-				'User Experience Design',
-				'Branding',
-				'Mobile Web Design'
+				'All',
+				'Reel',
+				'Shorts',
+				'Commercials',
+				'Music Videos',
+				'Screenplays'
 			],
 			color: ''
 		}

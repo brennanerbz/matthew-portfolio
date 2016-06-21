@@ -9,7 +9,7 @@ export default React.createClass({
 				<div className="container group">
 					<div className="float left not-on-mobile second center">
 						<div className="margin-small ml mt mb padding-small pr">
-							<p className="grey">&copy; Brennan Erbeznik 2012-2016</p>
+							<p className="grey">&copy; Matthew Wizan 2012-2016</p>
 						</div>
 					</div>
 					<div className="float right not-on-mobile first center">

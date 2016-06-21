@@ -14,8 +14,8 @@ export default React.createClass({
 					</div>
 					<div className="float-left">
 						<div className="margin-small ml">
-							<h2 className="no-padding no-margin logo-name black">Brennan Erbeznik</h2>
-							<p className="no-padding no-margin logo-title grey">Front End / UX Engineer</p>
+							<h2 className="no-padding no-margin logo-name black">Matt Wizan</h2>
+							<p className="no-padding no-margin logo-title grey">Creative Director</p>
 						</div>
 					</div>
 				</div>

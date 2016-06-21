@@ -15,23 +15,23 @@ export default React.createClass({
 					<div className="float right not-on-mobile first center">
 						<ul className="links flat margin-small mr no-padding">
 							<li>
-								<a href="mailto:brennan.erbeznik@gmail.com" className="grey padding-small pr">
+								<a href="mailto:matt.wizan@gmail.com" className="grey padding-small pr">
 									Email
 								</a>
 							</li>
 							<li>
-								<a href="https://twitter.com/brennanerbz" className="twitter padding-small pr">
+								<a href="https://twitter.com/kingmattwiz" className="twitter padding-small pr">
 									Twitter
 								</a>
 							</li>
 							<li>
-								<a href="https://instagram.com/brennanerbz" className="instagram">
+								<a href="https://instagram.com/kingmattwiz" className="instagram">
 									Instagram
 								</a>
 							</li>
 							<li>
-								<a href="https://github.com/brennanerbz" className="github padding-small pl">
-									Github
+								<a href="https://github.com/kingmattwiz" className="github padding-small pl">
+									Facebook
 								</a>
 							</li>
 						</ul>

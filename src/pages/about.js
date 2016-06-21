@@ -23,7 +23,7 @@ export default React.createClass({
 					<div className="about-body padding-med pt pr pb pl">
 						<div className="profile-pic-circle block">
 							<div className="profile-pic-img">
-								<img style={{width: '100%', borderRadius: '50%'}} src={'https://avatars2.githubusercontent.com/u/9124902?v=3&s=460'}/>
+								<img style={{width: '100%', borderRadius: '50%'}} src={'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-1/p320x320/1551592_10152200980906289_552896239_n.jpg?oh=d2388cd36d803b702bd149c19922b480&oe=57DB1477'}/>
 							</div>
 						</div>
 						<div className="info margin-large mt">
